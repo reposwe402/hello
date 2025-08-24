@@ -1,3 +1,6 @@
-# This is simple program to show how print statement works
+# Main entry point for the application
 
-print('Hello Python World')
+from printer import print_message
+
+if __name__ == "__main__":
+    print_message()
